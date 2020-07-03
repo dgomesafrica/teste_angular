@@ -1,0 +1,52 @@
+{
+    "produtos": [
+        {
+            "id":"1",
+            "nome":"Batedeira Planetária",
+            "descricao":"Batedeira Planetária Mondial Vermelha 127v",
+            "imagem":"./assets/img/batedeira-planetaria.jpg",
+            "valor":"R$399,90",
+            "parcelado":"10x 39,90"
+        },
+        {
+            "id":"2",
+            "nome":"Liquidificador",
+            "descricao":"Liquidificador Preto Wallita 127v",
+            "imagem":"./assets/img/no-image.jpg",
+            "valor":"R$399,90",
+            "parcelado":"10x 39,90"
+        },
+        {
+            "id":"3",
+            "nome":"Liquidificador",
+            "descricao":"Liquidificador Preto Wallita 127v",
+            "imagem":"./assets/img/no-image.jpg",
+            "valor":"R$399,90",
+            "parcelado":"10x 39,90"
+        },
+        {
+            "id":"4",
+            "nome":"Batedeira Planetária",
+            "descricao":"Batedeira Planetária Mondial Vermelha 127v",
+            "imagem":"./assets/img/batedeira-planetaria.jpg",
+            "valor":"R$399,90",
+            "parcelado":"10x 39,90"
+        },
+        {
+            "id":"5",
+            "nome":"Liquidificador",
+            "descricao":"Liquidificador Preto Wallita 127v",
+            "imagem":"./assets/img/no-image.jpg",
+            "valor":"R$399,90",
+            "parcelado":"10x 39,90"
+        },
+        {
+            "id":"6",
+            "nome":"Liquidificador",
+            "descricao":"Liquidificador Preto Wallita 127v",
+            "imagem":"./assets/img/no-image.jpg",
+            "valor":"R$399,90",
+            "parcelado":"10x 39,90"
+        }
+    ]
+}

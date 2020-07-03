@@ -1,0 +1,15 @@
+<header>
+  <nav class="navbar navbar-dark">
+    <span class="my-3">
+      <i class="fa fa-bars"></i>
+    </span>
+    <a class="logo">E-COMMERCE</a>
+
+    <div *ngIf="(user$|async) as user" class="f-right loggin">
+      <span class="f-right mr-3">Olá {{user.nome}}</span>
+      <a (click)="logout()" title="Sair">
+        <i class="fa fa-sign-out" aria-hidden="true"></i>
+      </a>
+    </div>
+  </nav>
+</header>

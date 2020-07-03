@@ -1,0 +1,14 @@
+.main {
+    input {
+        display: block;
+        border-bottom: 1px solid #bbbbbb;
+
+        &:focus {
+            
+        }
+    }
+    label {
+        color: #6c757d;
+        margin-bottom: 2px;
+    }
+}

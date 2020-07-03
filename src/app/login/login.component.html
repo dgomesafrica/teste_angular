@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="col-24 col-sm-8 mx-auto my-5">
+        <form [formGroup]="formLogin" (submit)="login()" class="col-24">
+            <div class="form-group">
+                <label for="login">Usuário:</label>
+                <input formControlName="name" type="text" name="login" id="login" class="w-100 form-control">
+                <app-vmessage text="login obrigatório" *ngIf="formLogin.get('name').errors?.required && formLogin.get('name').touched"></app-vmessage>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input formControlName="password" type="password" name="senha" id="senha" class="w-100 form-control">
+                <app-vmessage text="senha obrigatório" *ngIf="formLogin.get('password').errors?.required && formLogin.get('password').touched"></app-vmessage>
+                <app-vmessage text="a senha deve conter ao menos 6 catacteres" *ngIf="formLogin.get('password').errors?.minlength && formLogin.get('password').touched"></app-vmessage>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block mt-2" [disabled]="formLogin.invalid">Entrar</button>
+        </form>
+    </div>
+</div>
