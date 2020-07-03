@@ -1,6 +1,6 @@
 <div class="container">
-    <div class="flex-wrap my-5">
-        <div *ngIf="(produtos$|async) as produtos">
+    <div class="my-5 box-container col-24">
+        <div *ngIf="(produtos$|async) as produtos" class="d-flex box-produtos">
             <app-produto *ngFor="let produto of produtos" [produto]="produto"></app-produto>
         </div>
     </div>
